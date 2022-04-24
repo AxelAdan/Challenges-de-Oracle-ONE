@@ -6,4 +6,4 @@ Este repositorio contiene los Challenges de Oracle ONE, como:
 
 ## Insignias de Challenges
   - Construye Un Decodificador De Texto En JavaScript
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQE-8umKPozx1g/feedshare-shrink_800/0/1650840545175?e=2147483647&v=beta&t=nbxDz-kB74LoqaCJ-IQVhaLUo5doOjRwcQmuo8YKUOk" width="80" height="80">
+<img src="https://media-exp1.licdn.com/dms/image/C4E22AQE-8umKPozx1g/feedshare-shrink_800/0/1650840545175?e=2147483647&v=beta&t=nbxDz-kB74LoqaCJ-IQVhaLUo5doOjRwcQmuo8YKUOk" width="150" height="150">
