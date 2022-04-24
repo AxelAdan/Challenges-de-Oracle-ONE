@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="assets/img/logo.svg" alt="Logo" width="60" height="60">
+        </nav>
+    </header>
+
+    <main class="row">
+        <div class="column">
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                      <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green box"></span>
+                    </div>
+                  </div>
+                  <div class="cardContent">
+                    <form onsubmit="return false">
+                        <textarea type="text" name="mensaje" id="mensaje" cols="65" rows="10" placeholder="Escriba el texto aquí"></textarea><br>
+                
+                        <button class="btn" id="enc">Encriptar</button>
+                        <button class="btn" id="desenc">Desencriptar</button><br><br>
+                    </form>
+                  </div>
+            </div>  
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="tools">
+                    <div class="circle">
+                      <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green box"></span>
+                    </div>
+                  </div>
+                  <div class="cardContent">
+                    <form onsubmit="return false">
+                        <textarea id="texto" cols="65" rows="10"></textarea><br>
+                        <button class="btn" id="copiar">Copiar</button>
+                    </form>
+                  </div>
+            </div>  
+        </div>
+    </main>
+
+    <script src="assets/js/encrypted.js"></script>
+</body>
+</html>
